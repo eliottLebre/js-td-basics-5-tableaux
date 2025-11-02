@@ -77,10 +77,18 @@ for (const nombre of nombres) {
 console.log("Voici mon tableau de nombres :" + table);
 
 // - Créez un tableau vide "carres" qui contiendra les carrés de vos nombres.
-const carres = [];
+let carres = [];
 
 // - Parcourez le tableau "nombres" avec une boucle forEach et ajoutez dans le tableau "carres" le carré de chaque nombre.
-
+function toCarre(monNombre){
+    carres.push(monNombre * monNombre);
+}
+nombres.forEach(toCarre);
 
 // - Affichez "Voici mon tableau de nombres au carré :" suivi du tableau contenant les carrés.
-
+let tableCarre = "";
+for (const carre of carres) {
+    tableCarre += carre;
+    tableCarre += ",";
+}
+console.log("Voici mon tableau de nombres :" + tableCarre);

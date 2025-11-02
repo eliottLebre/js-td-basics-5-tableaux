@@ -15,8 +15,5 @@ Version alternative (avec BONUS) :
 4. Affichez le message final : "… + … + … = …".
 */
 
-
-
-
-
-
+const tableauValeur = [11, 3, 7, 2, 9, 10];
+console.log(`Voici mon tableau de nombres : ${tableauValeur}`);
