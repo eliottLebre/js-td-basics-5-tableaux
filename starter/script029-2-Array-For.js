@@ -64,6 +64,7 @@ for (const johnElement of john) {
 }
 
 
+
 // EXERCICE 3 :
 // - Créez un tableau "nombres" contenant les 5 premiers entiers.
 const nombres = [1, 2, 3, 4, 5];

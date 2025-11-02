@@ -37,6 +37,7 @@ mines[0][3] // ligne 1 colonne 4
 let value = mines[1][2];
 
 
+
 // Testez de la même manière l'emplacement situé en première ligne quatrième colonne
 
 value = mines[0][3];

@@ -14,6 +14,7 @@ console.log(semaine[0]);
 console.log(semaine[6]);
 
 
+
 // 3. Nombre d'éléments dans un tableau
 // EXERCICE 3 : Affichez le nombre de jours dans une semaine et le dernier jour de la semaine
 

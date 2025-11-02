@@ -28,6 +28,7 @@ function calculateurPourboire(facture) {
     }
 }
 
+
 let pourboires = [];
 let montantsFinaux = [];
 
