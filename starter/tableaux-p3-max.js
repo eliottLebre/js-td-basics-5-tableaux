@@ -11,3 +11,12 @@ Aide :
   - Si la valeur courante est supérieure à 'max', elle devient le nouveau 'max'.
 - Affichez le résultat.
 */
+const tableauValeurs = [3, 11, 7, 2, 9, 10];
+console.log(`Voici mon tableau de nombres : ${tableauValeurs}`);
+let maxValueOfTable = null;
+for (const tableauValeur of tableauValeurs) {
+    if (tableauValeur > maxValueOfTable){
+        maxValueOfTable = tableauValeur;
+    }
+}
+console.log(`La plus grande valeur de mon tableau est ${maxValueOfTable}`);
